@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale-1.0">
+      <title>shopping page</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/all.css">
+      <link rel="stylesheet" href="css/style.css">  
+    </head>
+    <body>
+      <header>
+        <div class="container-fluid container-ind">
+          <div class="head-perant w-100">
+            <h3 class="title-head "><a href="index.html" class="a-title-head">Z-Laptop</a></h3>
+            <h3 class="title-head wel-header"></h3>
+            <nav class="navbar navbar-expand-md nav1">    
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto header-ul">
+                  <li class="nav-item ">
+                    <a class="nav-link li-login" href="javascript:void(0)">LOGIN IN</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav me-auto" id="user-info">
+                  <li class="nav-item shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <samp class="badge"></samp>
+                    <div class="cart-prodacts">
+                      <div></div>
+                      <a href="card.html">View All Prodacts</a>
+                    </div>
+                  </li>
+                  <li class="nav-item"><a href="#" class="login-out li-login">LOGIN OUT</a></li>
+                </ul>
+              </div> <!-- div-ul -->
+            </nav>  
+          </div> <!-- head-perant --> 
+        </div> <!-- container-fluid --> 
+      </header>
+
+      <main>
+        <div class="container inp-search container-ind con-col">
+          <div class="col-lg-6 inp-search-element">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="search by name">
+          </div> <!-- inp-search-element -->
+
+          <div class="col-lg-6 inp-search-element">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="search">
+          </div> <!-- inp-search-element -->
+
+        </div> <!-- container inp-search -->
+      </main>
+
+      <section>
+        <div class="container-fluid plac container-ind con-col">
+          <div class="row justify-content-evenly prodacts w-100 mx-3">
+            <div class="col-lg-3 col-12">
+              <div class="card card-fam mx-auto prodact-item my-3 " style="width:100%;">
+                <img src="images/1.jpg" class="card-img-top" alt="..." height="300vh">
+                <div class="card-body div-ifo">
+                  <span class="card-title feat-sp fs-4">MacBook Pro</span> <br> <br>
+                  <p class="card-text feat-p fs-5">Price:500 $</p> 
+                  <p class="card-text feat-p fs-5">Color:Black</p>
+                  <button class="btn">BUY</button> <br>
+                  <i class="far fa-heart far fs-4"></i>
+                </div>
+              </div>   <!-- feat-item  -->
+            </div>
+          </div>
+         </div> <!--container-fluid -->
+      </section>
+
+
+
+
+
+
+
+
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/user.js"></script>
+    </body>
+</html>
